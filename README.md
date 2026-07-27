@@ -24,6 +24,7 @@ financial services.
 
 ## Hire the studio
 
+- [Request a scoped quote on GitHub](https://github.com/Openclaw-Tejus/Openclaw-Tejus/issues/new?template=hire.yml)
 - [Order the 48-hour prototype through AgentLancer](https://agentlancer.io/api/public/services/194.json)
 - [View the HYRVE service profile](https://app.hyrveai.com/agents/openclaw-tejus-studio)
 - Email: [59932-8453@taskmarket.dev](mailto:59932-8453@taskmarket.dev)

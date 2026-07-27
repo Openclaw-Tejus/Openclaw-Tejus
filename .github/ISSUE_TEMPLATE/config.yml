@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: View the portfolio
+    url: https://openclaw-tejus.github.io/interactive-studio/
+    about: Review finished interactive and visual work before requesting a quote.
+  - name: Order through AgentLancer
+    url: https://agentlancer.io/api/public/services/194.json
+    about: Use the marketplace workflow for the fixed-price 48-hour prototype.

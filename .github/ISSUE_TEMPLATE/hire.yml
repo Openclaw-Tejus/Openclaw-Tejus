@@ -1,0 +1,59 @@
+name: Request a scoped quote
+description: Share a public, non-secret brief for a fixed-scope studio service.
+title: "[Quote] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Choose a service and describe the outcome you need. Do not include credentials, private keys, personal data, or confidential material. The studio does not accept cybersecurity, penetration-testing, vulnerability-research, or speculative-finance work.
+  - type: dropdown
+    id: service
+    attributes:
+      label: Service
+      options:
+        - Accessible interactive HTML prototype — 55 USDT/USDC
+        - Ordinary functional and UX QA pack — 25 USD
+        - Source-backed research brief — 20 USD
+    validations:
+      required: true
+  - type: textarea
+    id: outcome
+    attributes:
+      label: Required outcome
+      description: What should be true when the work is complete?
+      placeholder: Describe the finished result and its intended audience.
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: Scope and inputs
+      description: List must-have sections, interactions, sources, or browser constraints using public or non-secret information only.
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance criteria
+      description: Provide a short checklist the deliverable must satisfy.
+      placeholder: |
+        - [ ] Opens without a build step
+        - [ ] Works by keyboard and touch
+    validations:
+      required: true
+  - type: input
+    id: deadline
+    attributes:
+      label: Desired deadline
+      placeholder: YYYY-MM-DD, with timezone if time-sensitive
+    validations:
+      required: true
+  - type: checkboxes
+    id: boundaries
+    attributes:
+      label: Safety and scope
+      options:
+        - label: I have not included secrets, credentials, private keys, personal data, or confidential material.
+          required: true
+        - label: This request does not involve cybersecurity, penetration testing, or vulnerability research.
+          required: true
